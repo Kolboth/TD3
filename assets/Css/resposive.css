@@ -1,0 +1,48 @@
+/* responsive */
+
+
+/* mobile phone  */
+
+@media (max-width: 575.98px) {
+    .sidebar {
+        padding-top: 10px;
+    }
+    .sidebar img {
+        width: 60%;
+    }
+    .sidebar h2,
+    h4 {
+        font-size: 0.7em;
+    }
+    #nav {
+        font-size: 0.7em;
+    }
+    .container_text {
+        position: relative;
+        font-size: 0.7em;
+        margin-top: 0;
+        padding: 0;
+    }
+    .container_text .user_name {
+        font-size: 3em;
+        margin-left: 0;
+    }
+    .container_text .information {
+        margin-left: 0%;
+    }
+}
+
+
+/* ipad */
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+/* ipad pro */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/* laptop */
+
+@media (min-width: 1200px) {}
